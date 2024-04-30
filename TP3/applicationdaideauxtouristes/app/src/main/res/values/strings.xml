@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Application d’aide aux touristes</string>
+    <string name="tourisme_au_qu_bec">Tourisme au Québec</string>
+    <string name="bienvenue_message">Bienvenue dans votre application d\'assistance Touristique pour le Québec.</string>
+    <string name="choix_ville">Choisissez la ville que vous voulez visiter :</string>
+    <string name="mtl">MONTRÉAL</string>
+    <string name="granby">GRANBY</string>
+    <string name="details">Visitez ce lien pour plus de détails : \nwww.granby.ca</string>
 </resources>
