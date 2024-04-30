@@ -38,14 +38,14 @@
                 android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:text="@string/mtl"
-                android:textSize="19dp"
+                android:textSize="16dp"
                 android:layout_marginLeft="30dp"/>
             <Button
                 android:id="@+id/granbyBtn"
                 android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:text="@string/granby"
-                android:textSize="19dp"
+                android:textSize="16dp"
                 android:layout_marginLeft="30dp"/>
         </LinearLayout>
     </LinearLayout>

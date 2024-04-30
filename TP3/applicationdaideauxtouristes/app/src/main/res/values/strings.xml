@@ -5,5 +5,9 @@
     <string name="choix_ville">Choisissez la ville que vous voulez visiter :</string>
     <string name="mtl">MONTRÉAL</string>
     <string name="granby">GRANBY</string>
-    <string name="details">Visitez ce lien pour plus de détails : \nwww.granby.ca</string>
+    <string name="details">Visitez ce lien pour plus de détails : </string>
+    <string name="site_web_montreal">https://ville.montreal.qc.ca</string>
+    <string name="site_web_granby">https://www.ville.granby.qc.ca</string>
+    <string name="description_montreal">Montréal est la plus grande ville au Québec. Situé sur une île au coeur de la vallée du Saint-Laurent, ce centre urbain est composé de 19 arrondissements. La Ville offre des services sur l’ensemble du territoire de l’île de Montréal. Gratte-ciel et manoirs victoriens, jolies boutiques et églises néogothiques : le centre-ville est tout en contraste et en constante effervescence. Entre le fleuve et la montagne (le mont Royal), le centre-ville est le coeur de la métropole, un concentré de la vie trépidante des diverses communautés qui y vivent</string>
+    <string name="description_granby">Capitale régionale de la MRC de La Haute-Yamaska et deuxième ville la plus populeuse des Cantons-de-l ’Est, la Ville de Granby compte 70 329 habitantes et habitants et offre une qualité de vie exceptionnelle à sa population. Granby est une ville audacieuse qui met de l’avant de nouvelles initiatives pour mieux répondre aux besoins de sa population. L’énoncé de vision de sa planification stratégique parle en ce sens : « Granby, naturelle et audacieuse dans son expérience humaine. » Engagée dans sa communauté, la Ville de Granby cherche également à faire rayonner son expérience et à partager l’expertise acquise au-delà de son territoire</string>
 </resources>

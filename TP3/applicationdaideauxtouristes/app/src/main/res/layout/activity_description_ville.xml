@@ -20,6 +20,12 @@
             android:text="@string/details"
             android:textAlignment="center"
             android:textSize="18dp"/>
+        <TextView
+            android:id="@+id/urlTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="18dp"/>
         <Button
             android:id="@+id/mainPageBtn"
             android:layout_width="150dp"
