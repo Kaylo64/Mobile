@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Poids santé</string>
+    <string name="taille">Votre taille</string>
+    <string name="en_cm">En cm</string>
+    <string name="en_pouce">En pouce</string>
+    <string name="calculer_votre_poids">Calculer votre poids idéal</string>
+    <string name="en_kg">En kg</string>
+    <string name="en_livre">En livre</string>
 </resources>

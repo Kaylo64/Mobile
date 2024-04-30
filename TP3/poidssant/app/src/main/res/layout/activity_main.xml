@@ -6,13 +6,88 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/taille"
+                android:textSize="16dp"
+                android:layout_marginLeft="25dp"/>
+            <EditText
+                android:id="@+id/sizeEditText"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/en_cm"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Circonférence du poignet"
+                android:textSize="16dp"
+                android:layout_marginLeft="25dp"/>
+            <EditText
+                android:id="@+id/wristEditText"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-20dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/en_pouce"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/calculerBtn"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="@string/calculer_votre_poids"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/en_kg"/>
+            <EditText
+                android:id="@+id/kgEditText"
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:enabled="false"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/en_livre"/>
+            <EditText
+                android:id="@+id/poundsEditText"
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="38dp"
+                android:enabled="false"/>
+        </LinearLayout>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
