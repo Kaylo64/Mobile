@@ -6,4 +6,5 @@
     <string name="calculer_votre_poids">Calculer votre poids idéal</string>
     <string name="en_kg">En kg</string>
     <string name="en_livre">En livre</string>
+    <string name="circonf_rence_du_poignet">Circonférence du poignet</string>
 </resources>
