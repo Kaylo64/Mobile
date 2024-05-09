@@ -10,27 +10,28 @@
         android:id="@+id/contactViewLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@android:color/background_dark">
         <TextView
             android:id="@+id/contactName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:textStyle="bold"
-            android:text="Tom Cruise"/>
+            android:textColor="@android:color/white"/>
         <TextView
             android:id="@+id/contactMail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/contactName"
-            android:text="tom@TomCruise.ca"/>
+            android:textColor="@android:color/white"/>
         <TextView
             android:id="@+id/contactPhoneNumber"
-            android:layout_marginLeft="100dp"
             android:layout_marginTop="20dp"
+            android:layout_alignParentEnd="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@+id/contactMail"
-            android:text="890-1234"/>
+            android:textColor="@android:color/white"/>
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

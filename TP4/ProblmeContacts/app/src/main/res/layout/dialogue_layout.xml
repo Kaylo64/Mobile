@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:id="@+id/ajouterContactLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TableRow android:gravity="center">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ajouter_un_contact"
+                android:textStyle="bold"/>
+        </TableRow>
+        <TableRow android:gravity="center">
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="@string/nom"/>
+            <EditText
+                android:id="@+id/nomEditText"
+                android:layout_width="150dp"
+                android:layout_marginLeft="-75dp"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow android:gravity="center">
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-20dp"
+                android:text="@string/courriel" />
+
+            <EditText
+                android:id="@+id/courrielEditText"
+                android:layout_width="150dp"
+                android:layout_marginLeft="-75dp"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow android:gravity="center">
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-37dp"
+                android:text="@string/t_l_phone" />
+
+            <EditText
+                android:id="@+id/telEditText"
+                android:layout_width="150dp"
+                android:layout_marginLeft="-75dp"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow android:gravity="center">
+            <Button
+                android:id="@+id/okayButton"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ok"/>
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/annuler"/>
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
