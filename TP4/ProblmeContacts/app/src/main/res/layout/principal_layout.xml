@@ -12,7 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginTop="40dp">
+        android:layout_marginTop="40dp"
+        android:background="@android:color/background_dark">
         <ListView
             android:id="@+id/listView"
             android:layout_width="match_parent"
