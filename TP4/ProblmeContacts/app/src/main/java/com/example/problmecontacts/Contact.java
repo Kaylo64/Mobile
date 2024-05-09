@@ -1,4 +1,4 @@
-package Object;
+package com.example.problmecontacts;
 
 public class Contact {
     private String nom;
