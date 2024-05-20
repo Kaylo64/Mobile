@@ -100,7 +100,7 @@ public class ContactActivity extends AppCompatActivity {
             contacts.add(new Contact("Maryse Des Aulniers", "mdesaulniers@cegepgranby.qc.ca", "555-6666"));
             contacts.add(new Contact("Charles Sarrazin Boucher", "cboucher@cegepgranby.qc.ca", "777-8888"));
             contacts.add(new Contact("Maurice Jacques-André Delafosse", "mdelafosse@cegepgranby.qc.ca", "999-0000"));
-            contacts.add(new Contact("Laurent Beauregard", "lbeauregard@cegepgranby.qc.ca", "123-4567"));
+                contacts.add(new Contact("Laurent Beauregard", "lbeauregard@cegepgranby.qc.ca", "123-4567"));
         }
 
         listView = findViewById(R.id.listView);

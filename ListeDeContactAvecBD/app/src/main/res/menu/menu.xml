@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/addContact"
+        android:title="@string/ajouter"/>
+    <item android:id="@+id/modifyContact"
+        android:title="@string/modifier"/>
+    <item android:id="@+id/removeContact"
+        android:title="@string/supprimer"/>
+</menu>
